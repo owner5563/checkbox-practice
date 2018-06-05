@@ -20,30 +20,46 @@
       <form id="stress">
         <div class="form-group">
           <p>Check All Options That Apply To You</p>
-          <input type="checkbox" name="indicator" value="sleep"> Less Than 6 hours of Sleep a Night.<br>
-          <input type="checkbox" name="indicator" value="anxiety"> Anxious Multiple Times a Day.<br>
-          <input type="checkbox" name="indicator" value="fatigue"> Feelings of Fatigue Throughtout the Day.<br>
-          <input type="checkbox" name="indicator" value="temper"> Frequent Outbursts Of Anger.<br>
-          <input type="checkbox" name="indicator" value="temper"> High Blood Pressure.<br>
-          <input type="checkbox" name="indicator" value="temper"> Problems With Memory.<br>
+          <input type="checkbox" name="indicator" value=-1> Less Than 6 hours of Sleep a Night.<br>
+          <input type="checkbox" name="indicator" value=-1> Anxious Multiple Times a Day.<br>
+          <input type="checkbox" name="indicator" value=-1> Feelings of Fatigue Throughtout the Day.<br>
+          <input type="checkbox" name="indicator" value=-1> Frequent Outbursts Of Anger.<br>
+          <input type="checkbox" name="indicator" value=-1> High Blood Pressure.<br>
+          <input type="checkbox" name="indicator" value=-1> Problems With Memory.<br>
         </div>
 
         <div class="form-group">
           <p>Indicate Which of These Activities You Partake in</p>
-          <input type="checkbox" name="activities" value="sleep"> Meditate.<br>
-          <input type="checkbox" name="activities" value="sleep"> Spend Time With Pets.<br>
-          <input type="checkbox" name="activities" value="sleep"> Plan Ahead.<br>
-          <input type="checkbox" name="activities" value="sleep"> Get a Massage.<br>
-          <input type="checkbox" name="activities" value="sleep"> Acupuncture.<br>
-          <input type="checkbox" name="activities" value="sleep"> Breathing Exercises.<br>
-
-
-
+          <input type="checkbox" name="activities" value=1> Meditate.<br>
+          <input type="checkbox" name="activities" value=1> Spend Time With Pets.<br>
+          <input type="checkbox" name="activities" value=1> Plan Ahead.<br>
+          <input type="checkbox" name="activities" value=1> Get a Massage.<br>
+          <input type="checkbox" name="activities" value=1> Acupuncture.<br>
+          <input type="checkbox" name="activities" value=1> Breathing Exercises.<br>
         </div>
+        <button type="submit" >submit answers</button>
 
 
       </form>
 
+      <a href="index.html"><button type="button" class="try" >Try Again</button></a>
+      <div class="output">
+
+
+        <div class="negative">
+          <p>YOU Seem to be suffering from too Much stress!! Take a look <a href="https://www.webmd.com/balance/guide/blissing-out-10-relaxation-techniques-reduce-stress-spot#1">here</a> for tips on calming down your life. </p>
+
+        </div>
+        <div class="positive">
+          <p>Your Chiller Than An Igloo You Can safely increase your workload!</p>
+
+        </div>
+
+        <div class="balanced">
+          <p>Your life seems really well balanced! If you add any more stress make sure to counterbalance with more relaxing activities!</p>
+
+        </div>
+      </div>
     </div>
 
 
